@@ -542,7 +542,14 @@ body {
     width: 100%;
     overflow: hidden;
 }
+.banner{
+    margin-bottom: 15px;
+}
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 .banner-img {
     width: 100%;
     height: auto;

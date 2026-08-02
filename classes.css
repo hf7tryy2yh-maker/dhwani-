@@ -4,17 +4,9 @@ body {
     background: radial-gradient(circle, #1807b0 0%, #0d1117 70%);
     color: #f0f0f0;
 }
-  
-        header {
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        header h1 {
-            font-size: 3.5rem;
-            margin: 0;
         }
         nav {
-            background-color: #111116;
+            background-color: radial-gradient(circle, #1807b0 0%, #0d1117 70%);
             padding: 1rem;
             text-align: center;
         }
@@ -545,4 +537,20 @@ body {
 
 .btn i {
     font-size: 20px;
+}
+.navbar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+@media (max-width:768px){
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
 }
